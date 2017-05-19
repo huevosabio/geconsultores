@@ -155,7 +155,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/logo.png');
+  background-color: #23343c;
   text-align: center;
   color: white;
 }
