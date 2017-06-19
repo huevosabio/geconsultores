@@ -46,7 +46,7 @@ p {
   background-color: #ffa76d;
 }
 .bg-dark {
-  background-color: #222222;
+  background-color: #23343c;
   color: white;
 }
 .text-faded {
@@ -63,7 +63,7 @@ aside {
 }
 .navbar-default {
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: rgba(60, 90, 103, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -82,7 +82,7 @@ aside {
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 300;
   font-size: 12px;
-  color: #222222;
+  color: #3c5a67;
   text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
@@ -90,7 +90,7 @@ aside {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 13px;
-  color: #222222;
+  color: #3c5a67;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -127,7 +127,7 @@ aside {
   }
   .navbar-default.affix {
     background-color: white;
-    border-color: rgba(34, 34, 34, 0.05);
+    border-color: rgba(60, 90, 103, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #ffa76d;
@@ -139,7 +139,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #3c5a67;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -288,7 +288,7 @@ header .header-content .header-content-inner p {
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
+  color: #3c5a67;
   background-color: white;
   border-color: white;
   -webkit-transition: all 0.35s;
@@ -301,7 +301,7 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #222222;
+  color: #3c5a67;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
@@ -333,7 +333,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-default .badge {
   color: white;
-  background-color: #222222;
+  background-color: #3c5a67;
 }
 .btn-primary {
   color: white;
@@ -396,12 +396,12 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #3c5a67;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #3c5a67;
 }
 img::selection {
   color: white;
@@ -411,6 +411,10 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
+.logo_cliente {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #3c5a67;
 }

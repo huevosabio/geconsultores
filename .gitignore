@@ -38,3 +38,6 @@ jspm_packages
 
 # vendor stuff
 vendor/
+
+# mac nonesense
+.DS_Store
