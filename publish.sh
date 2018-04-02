@@ -1,0 +1,3 @@
+#!/bin/bash
+# aws s3 sync ./ s3://prolegalcorporativo.com --delete=--exclude=.gitignore=--exclude=LICENSE --exclude="node_modules/*" --exclude="less/*" --exclude=gulpfile.js --exclude=package.json --exclude=README.md --exclude=".git/*" --exclude="*.DS_Store*" --exclude="venv/*" --exclude="publish.sh"
+s3cmd sync ./ s3://prolegalcorporativo.com --acl-public --delete-removed --no-mime-magic --guess-mime-type --exclude=.gitignore=--exclude=LICENSE --exclude="node_modules/*" --exclude="less/*" --exclude=gulpfile.js --exclude=package.json --exclude=README.md --exclude=".git/*" --exclude="*.DS_Store*" --exclude="venv/*" --exclude="publish.sh"
